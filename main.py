@@ -16,7 +16,7 @@ print(windLevel + lowTemp + highTemp + weather)
 # 获取当前时间
 cur_t = dt.now()
 
-msg = "亲爱的小冉，今天是" + str(cur_t.year) + "年" + str(cur_t.month) + "月" + str(cur_t.day) + "日\n" + \
+msg = "今天是" + str(cur_t.year) + "年" + str(cur_t.month) + "月" + str(cur_t.day) + "日\n" + \
       "现在为你播报明天的天气预报: \n" + \
       "地区：北京市\n" + \
       "最高气温：" + highTemp + "\n" + \
